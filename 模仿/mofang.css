@@ -1,0 +1,49 @@
+        ul#nav{ width:100%; height:40px; background:#f8f8f8;margin:0 auto} 
+        ul#nav li{display:inline; height:40px} 
+        ul#nav li a{display:inline-block; padding:0 10px; height:40px; line-height:40px;
+         color:black; font-family:"\5FAE\8F6F\96C5\9ED1"; font-size:16px} 
+        ul#nav li a:hover{}/*设置鼠标滑过或悬停时变化的背景颜色*/ 
+        ul#nav li{float: left;padding: 4px;}
+        ul#nav{margin: 0;padding: 0;list-style-type: none;}
+        .daohang{border-bottom: 2px solid #c0c0c0;
+                 width: 100%;color: #f8f8f8;
+                 padding-top:0px;
+                 margin-bottom: 20px}
+                .xinwen{float: left; margin-right:20px}
+                .a{margin-left: auto;margin-right:auto;width: 70%;vertical-align:middle;}
+                #input1{border:2px solid red;width:200px;height: 30px;float: left;}
+        h4{background-color: red;color: black;width:50px;height: 30px;text-align:center;float: left;}
+        .c1{float: left;width: 60%;margin-right: 20px;}
+        .c21{float: left;width: 40%;}
+        a{text-decoration: none;}
+        .img1{margin: 5px;height: 25px;position: relative;bottom: -10px;}
+        p{text-indent: 2em;}
+        .d{font-size: 15px;}
+        div#container{width: 600px;margin-top: 10px auto 0;}
+        ul#tupian{margin: 0;padding: 0;list-style-type: none;}
+        ul#tupian li{float: left;padding: 4px;}
+        .img2{height: 100px;width: 150px}
+        .f{position: relative;width: 120px;height: 100px;
+          float: left;margin-right: 15px;margin-bottom: 15px;}
+           .e{position: absolute;bottom: 0;left: 0;right:0;background-color:lightgrey;
+                color: red;font-size: 10px }
+        .g{background-color: grey;height: 20px;width: 560px;margin-top: 150px
+        }
+        .youtu{width: 350px
+        }
+        .youtu2{position: relative;width: 160px;height: 100px;
+          float: left;margin-right: 15px;margin-bottom: 15px;}
+           .e{position: absolute;bottom: 0;left: 0;right:0;background-color:lightgrey;
+                color: red;font-size: 10px }
+                .aa{margin-top: 250px
+                }
+        .cc {position: relative;float: left; width: 160px;height: 120px;margin-bottom: 15px;margin-right:15px;}
+         .yejiao{border-bottom: 2px solid #c0c0c0;
+                 width: 100%;color: #f8f8f8;
+                 padding-top:0px;
+                 margin-bottom: 20px
+                 clear:both;
+                       }
+
+
+

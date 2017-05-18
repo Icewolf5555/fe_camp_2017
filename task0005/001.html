@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>巴卫小新转换</title>
+	<style type="text/css">
+		.beijin{width: 800px;height: 550px;
+			position: relative;
+			left: 20%;
+		/*background-image: url('xx.png');}*/}
+		
+		.beijin img{position: absolute;
+			width: 800px;
+			height: 550px;
+			top: 0;
+			left: 0;
+		}
+		.an{position: absolute;
+			width: 250px;
+			height: auto;
+			margin: 200px 400px;
+		}
+		.an button{
+			width: 250px;
+			height: 40px;
+			font-size: 28px;
+			margin-top:20px;
+			outline: none;
+		}
+		.an button:hover{cursor: pointer;}
+		#xx{background-image: url('xxbtn.png');}
+		#bw{background-image: url('bwbtn.png');}
+	</style>
+</head>
+<body>
+	<div class="beijin">
+		<img src="xx.png" id="xx1">
+		<div class="an">
+			<button id="xx">小新</button>
+			<button id="bw">巴卫</button>
+		</div>
+		<!-- <script type="text/javascript">
+			var btn1=document.getElementById("xx");
+			var btn2=document.getElementById("bw");
+			btn1.onclick=function(){
+				xx1.setAttribute("src","xx.png");
+			}
+			btn2.onclick=function(){
+				xx1.setAttribute("src","bw.jpg");
+			}
+		</script> -->
+		<script type="text/javascript">
+        var btn1=document.getElementById("xx");
+        var btn2=document.getElementById("bw");
+        var img=document.getElementById("xx1");
+        function SwitchPicture(id){
+           img.setAttribute("src",id+".png");
+        }
+         function SwitchPicture1(id){
+           img.setAttribute("src",id+".jpg");
+        }
+        btn1.onclick=function(){
+        	SwitchPicture("xx");
+        }
+         btn2.onclick=function(){
+        	SwitchPicture1("bw");
+        }
+  		</script>
+	</body>
+	</html>
